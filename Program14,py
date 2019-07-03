@@ -1,0 +1,10 @@
+#Python program to calculate power of a number....
+
+from math import pow
+
+number = int(input(" Please Enter any Positive Integer : "))
+exponent = int(input(" Please Enter Exponent Value : "))
+
+power = pow(number, exponent)
+
+print("The Result of {0} Power {1} = {2}".format(number, exponent, power))
